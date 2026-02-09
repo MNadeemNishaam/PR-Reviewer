@@ -1,0 +1,35 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.23
+
+# Redis
+redis==5.0.1
+hiredis==2.2.0
+
+# HTTP client
+httpx==0.25.2
+
+# LLM APIs
+openai==1.3.7
+anthropic==0.7.8
+
+# Security
+cryptography==41.0.7
+PyJWT==2.8.0
+
+# Environment variables
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Utilities
+python-dateutil==2.8.2
+
+# Logging
+structlog==23.2.0
+
